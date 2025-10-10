@@ -1,0 +1,60 @@
+.dashboard {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 90vh;
+  background-image: url('C:\Users\Bhavanishraj\internproj\src\components\bg2.jpg');
+  background-size: cover;
+  overflow: hidden;
+}
+
+.dashboard-content {
+  padding: 32px;
+}
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  padding: 0 16px;
+  margin-top: 20px;
+}
+
+.dashboard-card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  opacity: 0.9;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-10px);
+}
+
+.dashboard-card h2 {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 12px;
+}
+
+.dashboard-card p {
+  margin: 6px 0;
+  font-size: 15px;
+  color: #555;
+}
+
+.more-details-btn {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.more-details-btn:hover {
+  background-color: #0056b3;
+}

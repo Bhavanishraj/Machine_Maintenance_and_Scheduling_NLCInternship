@@ -1,0 +1,39 @@
+.mlog-table{
+
+    background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  opacity: 0.95;
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+.mlog-table th, .mlog-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.mlog-table th {
+    background-color: #f2f2f2;
+}
+.mlog-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.delete-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mlog-container {
+    background-image: url('C:\Users\Bhavanishraj\internproj\src\components\bg2.jpg');
+    background-size: cover;
+    min-height: 90vh;
+    padding: 20px;
+}
